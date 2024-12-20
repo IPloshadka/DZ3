@@ -1,0 +1,11 @@
+*> Конфигурация сети
+def IP = [[192.168.1.1]];
+{
+    hostname -> [[server]].
+    ip_address -> |IP|.
+    services -> {
+        http -> 80.
+        https -> 443.
+        ssh -> 22.
+    }.
+}.

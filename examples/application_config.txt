@@ -1,0 +1,14 @@
+*> Конфигурация приложения
+def VERSION = [[1.0.0]];
+def PORT = 8080;
+{
+    app_name -> [[MyApp]].
+    version -> |VERSION|.
+    port -> |PORT|.
+    database -> {
+        host -> [[localhost]].
+        port -> 5432.
+        user -> [[admin]].
+        password -> [[secret]].
+    }.
+}.
